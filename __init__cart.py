@@ -39,3 +39,6 @@ def remove_from_cart(username: str, product_id: int):
 
 def delete_cart(username: str):
     dao.delete_cart(username)
+
+
+#__init__cart.py
